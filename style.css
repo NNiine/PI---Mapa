@@ -2,21 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: museo;
 }
 
 .box {
-  margin: auto;
   padding: auto;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
 
-  background-color: ;
+  width: 1000px;
+  background-color: #50c878;
+  border-radius: 25px;
+  box-shadow: inset 0 0 1em rgb(0, 0, 0);
 }
 
 .box img {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 950px;
 }
+
+.AlerTrem {
+  color: rgb(29, 31, 30);
+  margin-top: 2.5%;
+  font-size: 25px;
+}
+
+
